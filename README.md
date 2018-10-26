@@ -10,9 +10,11 @@ jdk版本号 jdk1.8(因为用到了新特性)
 Java技术：反射技术
 
 使用方式：
+
 下载后直接导入Eclipse中，直接运行RunApplication.java即可看到效果
 
-目前只用到了三个注解
+目前只用到了三个注解：
+
 @ComponentScan: 用来通知框架需要扫描哪个包下的文件
 @BeanObj: 用来告诉框架需要装载这个Bean
 @Autoload: 用来自动注入
